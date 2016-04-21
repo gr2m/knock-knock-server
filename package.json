@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "hapi": "^13.3.0",
-    "randmon-knock-knock": "2.0.0"
+    "randmon-knock-knock": "^2.0.2"
   },
   "devDependencies": {
     "request": "^2.72.0",
