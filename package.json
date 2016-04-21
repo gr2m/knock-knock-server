@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^13.3.0"
+    "hapi": "^13.3.0",
+    "randmon-knock-knock": "^1.0.0"
   },
   "devDependencies": {
     "request": "^2.72.0",
