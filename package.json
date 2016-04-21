@@ -1,10 +1,10 @@
 {
   "name": "knock-knock-server",
-  "version": "1.0.0",
   "description": "A server with humour",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,11 @@
     "hapi": "^13.3.0"
   },
   "devDependencies": {
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "semantic-release": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gr2m/knock-knock-server.git"
   }
 }
