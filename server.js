@@ -1,7 +1,6 @@
 var Hapi = require('hapi')
 var getJoke = require('randmon-knock-knock')
 var server = new Hapi.Server()
-
 server.connection({ port: process.env.PORT || 3000 })
 server.route({
   method: 'GET',
