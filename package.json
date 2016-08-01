@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "dependencies": {
-    "hapi": "^13.3.0",
+    "hapi": "^14.1.0",
     "randmon-knock-knock": "^2.0.2"
   },
   "devDependencies": {
